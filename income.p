@@ -14,7 +14,7 @@ begin
   SPrimerA:= SM * 12;
   writeln ('El salario del año 1 fue de: ', SPrimerA);
   Sal_anterior:= SPrimerA;
-  For i:= 2 to 5 do;
+  For i:= 2 to years do
   begin
     aumento:= Sal_anterior * 0.10;
     Sal_aumentado:= Sal_anterior + aumento;
